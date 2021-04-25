@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Validasi isian form</title>
+</head>
+<body>
+<h1>Form Data Pribadi</h1>
+<form>
+    <fieldset>
+        <legend>Formulir Data Karyawan</legend>
+        Nama Lengkap:<br>
+        <input type="text" name="nama" required><br>
+        Agama:<br>
+        <input type="text" name="email" required><br>
+        Jenis Kelamin<br>
+        <input type="text" name="jk" required><br>
+        Alamat:<br>
+        <input type="text" name="alamat" required><br>
+        <br>
+        <input type="submit" value="Kirim">
+    </fieldset>
+    <style>
+        form p > tabel {
+        display: inline-block;
+        width: 100px;
+        }
+        form input[type="text"], form textarea {
+            border: 1px solid #35363d;
+        }
+        form input[type="submit"] {
+            border: 1px solid #000000;
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+</form>>
+</body>
+</html>
